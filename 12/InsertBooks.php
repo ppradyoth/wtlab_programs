@@ -5,7 +5,7 @@
     <br>
  
     <?php
-        include("DBConnect.php");
+        include("dbConnect.php");
  
         $isbn=$_POST["isbn"];
         $title=$_POST["title"];

@@ -5,7 +5,7 @@
     <br>
  
     <?php
-    include("DBConnect.php");
+    include("dbConnect.php");
  
     $search = $_REQUEST["search"];
  
