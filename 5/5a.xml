@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE student SYSTEM "5a.dtd">
+<!-- Obtain stylesheet. Note that the xml file & css file should be in the same directory/location -->
+    <?xml-stylesheet type="text/css" href="5a.css" ?>
+        <student>
+            Student 1 details:<br/>
+                <info>
+                    USN:<usn>4NI19IS016</usn><br />
+                    Name:<name>Aprameya L</name><br />
+                    College:<coll>deNIEd</coll><br />
+                    Branch:<branch>ISE</branch><br />
+                    Year Of Joining:<yoj>2019</yoj><br/>
+                    Email-ID:<email>4NI19IS016_A@nie.ac.in</email><br/>
+                </info>
+            Student 2 details:<br/>
+                <info>
+                    USN:<usn>4NI19IS020</usn><br/>
+                    Name:<name>Ayush R Patil</name><br/>
+                    College:<coll>deNIEd</coll><br/>
+                    Branch:<branch>ISE</branch><br/>
+                    Year Of Joining:<yoj>2019</yoj><br/>
+                    Email-ID:<email>4NI19IS020_A@nie.ac.in</email><br/>
+                </info>
+            Student 3 details:<br/>
+                <info>
+                    USN:<usn>4NI19IS030</usn><br/>
+                    Name:<name>Eshaan TA Bagaria</name><br/>
+                    College:<coll>deNIEd</coll><br/>
+                    Branch:<branch>ISE</branch><br/>
+                    Year Of Joining:<yoj>2019</yoj><br/>
+                    Email-ID:<email>4NI19IS030_A@nie.ac.in</email><br/>
+                </info>
+        </student>

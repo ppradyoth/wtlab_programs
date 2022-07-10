@@ -1,0 +1,27 @@
+<html>
+<head><title>USN Validator</title></head>
+    <body>
+            <script type="text/javascript">
+                usnfinder=function()
+                    {
+                        var a=document.getElementById('usn').value;
+                        if(a.length==0)
+                            {
+                                alert("USN is empty");
+                                return;
+                            }
+                        var b=a.toLowerCase();
+                        var str=b.search(/^[1-4][a-z][a-z][0-9][0-9][a-z][a-z][0-9][0-9][0-9]/);
+                        if(str==0)
+                            alert("The Entered USN is Valid");
+                        else
+                            alert("The Entered USN is Invalid");
+                        window.location.reload();
+                    }
+            </script>
+        <form onsubmit=usnfinder()>
+            Enter a valid VTU USN : <input type="text" id="usn"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+ </html>

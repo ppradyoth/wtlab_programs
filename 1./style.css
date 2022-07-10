@@ -1,0 +1,42 @@
+p,table,li
+{
+font-family: "lucida calligraphy", 'arial', 'sans serif';
+margin-left: 10pt;
+}
+body 
+{
+background-color:cyan; 
+}
+p,li,td 
+{
+font-size: 75%;
+}
+td 
+{
+padding: 0.5cm;
+}
+th
+{
+text-align:center;
+font-size: 85%;
+}
+h1,h4
+{
+color:black;
+font-weight:bold;
+}
+table
+{
+border-style: outset;
+background-color: pink;
+}
+ol
+{
+list-style-type: lower-roman;
+}
+span
+{
+color:brown;
+font-size: 12pt;
+font-weight: bold;
+}
