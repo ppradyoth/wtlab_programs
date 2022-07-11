@@ -7,6 +7,7 @@
             if(isset($_COOKIE["lastVisit"])){
                 echo "Your last visit was: ".$_COOKIE["lastVisit"];
             }
+            else 
             echo "You've got some stale cookies";
         ?>
     </body> 
